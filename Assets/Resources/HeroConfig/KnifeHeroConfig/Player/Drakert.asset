@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3367fb5984a9eb944bc1c2aa82982eec, type: 3}
+  m_Name: Drakert
+  m_EditorClassIdentifier: 
+  listHeroData:
+  - level: 1
+    health: 50
+    speedRun: 3
+    damage: 3
+    defense: 0.1
+    cooldown: 10
+    priceUnlock: 50
+    coinToDeploy: 10
+  - level: 2
+    health: 70
+    speedRun: 4
+    damage: 4
+    defense: 0.2
+    cooldown: 15
+    priceUnlock: 100
+    coinToDeploy: 10
+  - level: 3
+    health: 90
+    speedRun: 5
+    damage: 5
+    defense: 0.3
+    cooldown: 20
+    priceUnlock: 150
+    coinToDeploy: 10
